@@ -1,6 +1,8 @@
-function PlayerName(player_number) {
+import './style.css'
+
+function PlayerName(content) {
   return`
-    <h3>${player_number}</h3>
+    <p class="player-name">${content}</p>
   `
 }
 
